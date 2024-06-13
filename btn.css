@@ -1,0 +1,61 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    width: fit-content;
+    margin: 20px auto; /* Center the board horizontally */
+    align-items: center;
+    
+}
+
+.btn {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    border:#f8f8f8 2px solid;
+    font-style: normal;
+    color: aqua;
+}
+.main{
+border-radius: 30px;
+}
+.winner {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: yellow;
+}
+
+.reset {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: block;
+    margin: 20px auto; /* Center the reset button */
+    cursor: pointer;
+    width:fit-content;
+    border-radius: 25%;
+   
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.draw{
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: yellow;
+}
+.reset:hover{
+    background-color: yellow;
+}
+
+.main:hover{
+    background-color: aliceblue;
+}

@@ -1,0 +1,8 @@
+.App{
+  
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: space-evenly;
+  background:linear-gradient(140deg,red,#ff894c,#ff894c,red);
+}
